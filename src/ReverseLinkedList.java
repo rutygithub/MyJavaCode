@@ -12,4 +12,14 @@ public class ReverseLinkedList {
         head.next = null;
         return newHead;
     }
+
+
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+        }
+    }
 }

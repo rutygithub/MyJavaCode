@@ -24,4 +24,15 @@ public class CheckFullBinaryTree {
         int height = left + 1;
         return height;
     }
+
+
+    public class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int x) {
+            val = x;
+        }
+    }
 }
