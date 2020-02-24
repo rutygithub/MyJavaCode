@@ -14,14 +14,14 @@ public class QuickSort {
         int end = high;
         int key = A[low];
         while (start < end) {
-            while (start < end && A[end] >= key) {
+            while (start < end && A[end] >= key) {//都是跟key大小进行比较
                 end--;
             }
             if (A[end] <= key) {
                 swap(A, start, end);
             }
 
-            while (start < end && A[start] <= key) {
+            while (start < end && A[start] <= key) {//都是跟key大小进行比较
                 start++;
             }
 
