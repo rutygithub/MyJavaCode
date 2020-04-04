@@ -10,9 +10,9 @@ public class ImplementStackusingQueues {
     /**
      * Initialize your data structure here.
      */
-    public MyStack() {
-
-    }
+//    public MyStack() {
+//
+//    }
 
     /**
      * Push element x onto stack.
