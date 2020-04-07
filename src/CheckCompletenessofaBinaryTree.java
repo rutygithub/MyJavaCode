@@ -27,7 +27,7 @@ public class CheckCompletenessofaBinaryTree {
             } else {
                 if (flag) {
                     return false;
-                }
+                }//meet the non-null node after we meet null node first, we need to return false
                 queue.offer(node.left);
                 queue.offer(node.right);
             }
