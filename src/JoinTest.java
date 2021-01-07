@@ -1,4 +1,4 @@
-public class TestJoin {
+public class JoinTest {
     static class ThreadDemo extends Thread {
         private String s;
 
