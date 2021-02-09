@@ -17,7 +17,12 @@ public class AtomicIntegerDemo implements Runnable {
         Thread t2 = new Thread(mt);
         t1.start();
         t2.start();
-        Thread.sleep(500);
+//        Thread.sleep(500);
         System.out.println(mt.safeCounter.get());
+        System.out.println(mt.safeCounter.get());
+        System.out.println(mt.safeCounter.get());
+        Thread.sleep(500);
+        //cause the t1 and t2 are still running when we proceed the SOP method, after sleep method, the t1 and t2 are finished.
+        System.out.println(mt.safeCounter.get());//finally, we get 2000000 result.
     }
 }
