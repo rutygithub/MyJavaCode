@@ -3,7 +3,7 @@ public class VolatileTest {
     //volatile可以保证inc在多个线程之间的可见性。但是无法inc++的原子性
     public volatile int inc = 0;
 
-    public void increase() {
+    private void increase() {
         inc++;
     }
 
